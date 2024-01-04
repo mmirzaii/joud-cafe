@@ -1,0 +1,15 @@
+@font-face {
+    font-family: cgB;
+    src: url(../../public/font/CormorantGaramond-Bold.ttf);
+}
+@font-face {
+    font-family: cgR;
+    src: url(../../public/font/CormorantGaramond-Regular.ttf);
+}
+@font-face {
+    font-family: goth;
+    src: url(../../public/font/gothampro_medium.ttf);
+}
+body{
+    font-family: goth !important;
+}

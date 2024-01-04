@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Component } from "react";
+import { Route, Routes, Navigate } from "react-router-dom";
+import Order from "./page/order";
+import Menu from "./page/menu";
+class App extends Component {
+  state = {};
+  render() {
+    return (
+      <>
+        <Routes>
+          <Route path="/" element={<Order />} />
+          <Route path="/order" element={<Navigate replace to="/" />} />
+      <Route path="/menu" element={<Menu/>}/>
+        </Routes>
+      </>
+    );
+  }
 }
 
 export default App;

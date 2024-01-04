@@ -1,0 +1,58 @@
+header {
+  min-height: 100vh;
+  background: url(../../public/img/wall.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.head-container {
+  margin: auto 0px;
+}
+.header-title {
+  color: #065349;
+  font-size: 8em;
+  font-family: cgr;
+}
+.header-details {
+  color: #065349;
+  font-family: goth;
+  font-size: 0.9em;
+}
+.header-btn {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  background-color: #065349 !important;
+  color: #fdfefe !important;
+  border-radius: 50px !important;
+  padding: 10px 40px !important;
+  box-shadow: 10px 10px 15px 0px rgba(40, 40, 40, 0.4);
+}
+.header-btn:hover {
+  background-color: #fdfefe !important;
+  color: #065349 !important;
+}
+.paper-glass {
+  width: 20vw;
+  animation: fade-rtl 3s;
+  filter: drop-shadow(30px 10px 15px rgba(40, 40, 40, 0.3));
+}
+@media screen and (max-width: 992px) {
+  .paper-glass {
+    width: 30vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .paper-glass {
+    width: 50vw;
+  }
+}
+@keyframes fade-rtl {
+  0% {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}

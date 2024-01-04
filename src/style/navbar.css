@@ -1,0 +1,25 @@
+.brand {
+  font-family: cgB;
+  font-size: 2em !important;
+  color: #065349 !important;
+}
+.item {
+  margin: 5px 0px 5px 10px;
+}
+.link {
+  font-family: goth;
+  padding: 2px 20px !important;
+  color: #065349 !important;
+}
+.active {
+  background-color: #065349 !important;
+  color: #fdfefe !important;
+  border-radius: 50px;
+}
+.nav-icon {
+  color: #065349 !important;
+  box-shadow: none !important;
+}
+.nav-icon:focus{
+color: #fdfefe !important;
+}
