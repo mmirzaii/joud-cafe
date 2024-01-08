@@ -1,0 +1,48 @@
+.slider-container {
+  position: relative;
+  background-color: #fdfefe;
+  overflow: hidden;
+  height: 100vh;
+}
+.bean-ltr {
+  position: absolute;
+  left: -20px;
+  bottom: 30vh;
+  width: 15vw !important;
+}
+.bean-rtl {
+  position: absolute;
+  right: -30px;
+  top: 30vh;
+  width: 15vw !important;
+}
+.slider-title {
+  color: #065349;
+}
+.slider-title h1 {
+  font-family: gothb;
+  color: #065349;
+}
+.slider-title h1 span {
+  color: #b88262;
+}
+.slider-title span {
+  color: #065349;
+}
+.angle-btn {
+  z-index: 2;
+  color: #065349 !important;
+  font-size: 1.5em !important;
+}
+.drinks{
+  width: 70%;
+  overflow: hidden;
+}
+@media screen and (max-width:992px) {
+  .bean-ltr {
+    width: 30vw !important;
+  }
+  .bean-rtl {
+    width: 30vw !important;
+  }
+}

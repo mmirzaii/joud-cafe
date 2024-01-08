@@ -10,7 +10,7 @@ class Header extends Component {
           <Navbar />
           <div className="container head-container d-flex align-items-center">
             <div className="row">
-              <div className="col-6 d-flex flex-column">
+              <div className="col-6 d-flex flex-column head-text">
                 <h1 className="header-title">JOUD</h1>
                 <p className="header-details lh-lg  ">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -28,9 +28,9 @@ class Header extends Component {
                   ORDER
                 </button>
               </div>
-              <div className="col-6 d-flex align-items-center   justify-content-center ">
+              <div className="col-6 d-flex align-items-center justify-content-center">
                   <img
-                    src="img/paper-glass.png"
+                    src="img/header-paperglass.png"
                     alt="paper-glass"
                     className="paper-glass"
                   />

@@ -1,5 +1,5 @@
 header {
-  min-height: 100vh;
+  height: 100vh;
   background: url(../../public/img/wall.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,27 +32,31 @@ header {
   color: #065349 !important;
 }
 .paper-glass {
-  width: 20vw;
+  width: 25vw;
   animation: fade-rtl 3s;
   filter: drop-shadow(30px 10px 15px rgba(40, 40, 40, 0.3));
+margin-bottom: auto;
 }
 @media screen and (max-width: 992px) {
   .paper-glass {
-    width: 30vw;
+    width: 40vw;
+    margin-bottom: 0;
   }
 }
 @media screen and (max-width: 768px) {
   .paper-glass {
     width: 50vw;
+    margin-bottom: 0;
   }
 }
-@keyframes fade-rtl {
-  0% {
-    opacity: 0;
-    transform: translateX(150px);
+@media screen and (max-width: 360px) {
+  .paper-glass {
+    display: none;
   }
-  100% {
-    opacity: 1;
-    transform: translateX(0px);
+  .header-title {
+    font-size: 30vw;
+  }
+  .head-text {
+    width: 90vw !important;
   }
 }

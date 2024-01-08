@@ -7,9 +7,93 @@
     src: url(../../public/font/CormorantGaramond-Regular.ttf);
 }
 @font-face {
-    font-family: goth;
+    font-family: gothB;
     src: url(../../public/font/gothampro_medium.ttf);
 }
-body{
-    font-family: goth !important;
+@font-face {
+    font-family: gothM;
+    src: url(../../public/font/gothampro.ttf);
 }
+body{
+    font-family: gothM !important;
+box-sizing: border-box;
+}
+button:focus{
+    border: none !important;
+  }
+  @keyframes fade-rtl {
+    0% {
+      opacity: 0;
+      transform: translateX(150px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+  @keyframes nextone {
+    0%{
+      transform: translateX(20vw);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  @keyframes nexttwo {
+    0%{
+      transform: translateX(20vw);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  @keyframes previousone {
+    0%{
+      transform: translateX(-20vw);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  @keyframes previoustwo {
+    0%{
+      transform: translateX(-20vw);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  @media screen and (max-width:576px) {
+    @keyframes nextone {
+      0%{
+        transform: translateX(50vw);
+      }
+      100% {
+        transform: translateX(0px);
+      }
+    }
+    @keyframes nexttwo {
+      0%{
+        transform: translateX(50vw);
+      }
+      100% {
+        transform: translateX(0px);
+      }
+    }
+    @keyframes previousone {
+      0%{
+        transform: translateX(-50vw);
+      }
+      100% {
+        transform: translateX(0px);
+      }
+    }
+    @keyframes previoustwo {
+      0%{
+        transform: translateX(-50vw);
+      }
+      100% {
+        transform: translateX(0px);
+      }
+    }
+  }
