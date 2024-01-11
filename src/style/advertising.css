@@ -1,0 +1,66 @@
+.advertising-container {
+  height: 100vh;
+  background: url(../../public/img/background-advertising.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.advertising-text {
+}
+.advertising-title {
+  font-size: 4.5vw;
+  font-family: gothb;
+  color: #065349;
+}
+.advertising-title span {
+  color: #b88262;
+}
+.advertising-caption {
+  font-size: 1vw;
+  color: #065349;
+}
+.glass-container {
+}
+.glass {
+  position: relative;
+  height: calc(100% / 3);
+  width: 100%;
+}
+.glass img {
+  overflow: visible;
+  position: absolute;
+  filter: drop-shadow(30px 10px 15px rgba(40, 40, 40, 0.3));
+  height: 100%;
+  object-fit: cover;
+  width: 15vw;
+}
+.right {
+    animation: suspendedone 10s infinite linear;
+    right: 40%;
+    bottom: 0px;
+}
+.normal {
+    animation: suspendedtwo 10s infinite linear;
+    animation-direction: alternate;
+    left: 10%;
+}
+.left {
+    animation: suspendedthree 10s infinite linear;
+    top: 0px;
+  right: 30%;
+}
+@media screen and (max-width: 992px) {
+  .advertising-caption {
+    font-size: 2vw;
+  }
+}
+@media screen and (max-width: 576px) {
+  .glass {
+    position: relative;
+    height: 20%;
+    width: 100%;
+  }
+  .advertising-caption {
+    font-size: 2vw;
+  }
+}

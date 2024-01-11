@@ -1,0 +1,23 @@
+footer {
+  background-color: #065349;
+}
+.icon-container i {
+  font-size: 2em;
+  margin: 10px;
+  color: #fdfefe;
+}
+.link-container{
+    margin: 0 ;
+}
+.link-container li {
+  margin: 0px 10px;
+}
+.link-container li a {
+  color: #fdfefe;
+}
+footer hr {
+  width: 20%;
+  opacity: 1;
+  color: #fdfefe;
+  background-color: #fdfefe;
+}

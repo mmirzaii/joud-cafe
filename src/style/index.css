@@ -31,6 +31,27 @@ button:focus{
       transform: translateX(0px);
     }
   }
+  @keyframes suspendedone {
+    50%{
+      transform: translate(-10%,1%);
+    }
+  }
+  @keyframes suspendedtwo {
+    0%{
+      transform: rotate(-35deg);
+    }
+    50%{
+      transform: rotate(-30deg) translate(-5%);
+    }
+    100%{
+      transform: rotate(-40deg);
+    }
+  }
+  @keyframes suspendedthree {
+    50%{
+      transform: translate(-10%,-5%);
+    }
+  }
   @keyframes nextone {
     0%{
       transform: translateX(20vw);
