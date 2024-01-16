@@ -5,6 +5,7 @@
   background-color: #cacaca !important;
   border-radius: 30px !important;
   z-index: 2;
+  cursor: auto !important;
 }
 .btn-slide-active {
   background-color: #065349 !important;

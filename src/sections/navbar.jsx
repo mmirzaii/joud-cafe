@@ -23,11 +23,6 @@ class Navbar extends Component {
                     Menu
                   </NavLink>
                 </li>
-                <li className="nav-item item ">
-                  <NavLink className="nav-link link " to="/about">
-                    About
-                  </NavLink>
-                </li>
                 <li className="nav-item item">
                   <NavLink className="nav-link link " to="/">
                     Order

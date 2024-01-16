@@ -1,11 +1,12 @@
 .advertising-container {
-  height: 100vh;
+  min-height: 100vh;
   background: url(../../public/img/background-advertising.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-.advertising-text {
+.hh{
+min-height: 100vh;
 }
 .advertising-title {
   font-size: 4.5vw;
@@ -18,8 +19,6 @@
 .advertising-caption {
   font-size: 1vw;
   color: #065349;
-}
-.glass-container {
 }
 .glass {
   position: relative;

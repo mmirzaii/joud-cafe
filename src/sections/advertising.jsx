@@ -5,7 +5,7 @@ class Advertising extends Component {
   render() {
     return (
       <section className="container-fluid advertising-container">
-        <div className="row h-100 me-5 ms-5">
+        <div className="row hh me-5 ms-5">
           <div className="col-7 d-flex flex-column justify-content-center  glass-container">
             <div className="glass">
             <img src="img/up-right.png" className="right" alt="" />

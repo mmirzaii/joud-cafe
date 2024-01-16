@@ -14,7 +14,7 @@ class Slider extends Component {
       {
         id: 2,
         active: true,
-        title: "espreso",
+        title: "milk",
         img: "img/slide2.png",
         animate: "",
       },

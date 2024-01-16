@@ -3,6 +3,7 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import Order from "./page/order";
 import Menu from "./page/menu";
 import NotFound from "./page/not-found";
+import OrderForm from "./sections/order-form";
 class App extends Component {
   state = {};
   render() {

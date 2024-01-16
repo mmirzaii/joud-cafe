@@ -16,13 +16,13 @@ class Footer extends Component {
         </div>
         <ul className="list-unstyled d-flex link-container">
           <li>
-            <Link className="text-decoration-none" to="/about">
-              ABOUT
+            <Link className="text-decoration-none" to="/menu">
+              MENU
             </Link>
           </li>
           <li>
-            <Link className="text-decoration-none" to="/menu">
-              MENU
+            <Link className="text-decoration-none" to="/order">
+              ORDER
             </Link>
           </li>
         </ul>

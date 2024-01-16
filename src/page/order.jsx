@@ -1,16 +1,18 @@
 import Header from "../sections/header";
-import React, { Component } from "react";
+import React, { Component , createRef} from "react";
 import Slider from "../sections/slider";
 import Advertising from "../sections/advertising";
 import Footer from "../sections/footer";
+import OrderForm from "../sections/order-form";
 class Order extends Component {
-  state = {};
+  formRef= createRef()
   render() {
     return (
       <>
-        <Header />
+        <Header formRef={this.formRef}/>
         <Slider />
         <Advertising />
+        <OrderForm formRef={this.formRef}/>
         <Footer />
       </>
     );

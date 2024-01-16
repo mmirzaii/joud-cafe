@@ -2,7 +2,6 @@ import { Component } from "react";
 import "../style/header.css";
 import Navbar from "./navbar";
 class Header extends Component {
-  state = {};
   render() {
     return (
       <>
@@ -28,7 +27,10 @@ class Header extends Component {
                   vero minima commodi sint ea culpa, excepturi amet. Quae,
                   laboriosam.
                 </p>
-                <button className="btn align-self-start header-btn ">
+                <button
+                  onClick={this.onscroll}
+                  className="btn align-self-start header-btn "
+                >
                   ORDER
                 </button>
               </div>
@@ -45,6 +47,10 @@ class Header extends Component {
       </>
     );
   }
+  onscroll = (e) => {
+    e.preventDefault();
+    this.props.formRef.current.scrollIntoView({ behavior: "smooth" });
+  };
 }
 
 export default Header;
