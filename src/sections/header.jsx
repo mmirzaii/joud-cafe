@@ -1,16 +1,19 @@
 import { Component } from "react";
 import "../style/header.css";
 import Navbar from "./navbar";
+import Brand from "../utilities/brand";
 class Header extends Component {
   render() {
     return (
       <>
         <header className="container-fluid d-flex flex-column ">
-          <Navbar />
+          <Navbar/>
           <div className="container head-container d-flex align-items-center">
             <div className="row">
               <div className="col-6 d-flex flex-column head-text">
-                <h1 className="header-title">JOUD</h1>
+                <div className="header-title align-self-start">
+                  <Brand fontSize="7" />
+                </div>
                 <p className="header-details lh-lg  ">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Numquam voluptate expedita consectetur, suscipit natus at

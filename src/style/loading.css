@@ -1,0 +1,8 @@
+.loading-container {
+  min-height: 100vh;
+}
+.loading-title{
+  font-family: gothb;
+  color: #065349;
+font-size: 3em;
+}

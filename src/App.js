@@ -4,18 +4,33 @@ import Order from "./page/order";
 import Menu from "./page/menu";
 import NotFound from "./page/not-found";
 import OrderForm from "./sections/order-form";
+import Loading from "./page/loading";
 class App extends Component {
-  state = {};
+  state = {
+    isLoading: true,
+  };
+  constructor() {
+    super();
+    window.addEventListener("load", () => {
+      setTimeout(() => {
+        this.setState({ isLoading: false });
+      }, 2000);
+    });
+  }
   render() {
     return (
       <>
-        <Routes>
-          <Route path="not-found" element={<NotFound />} />
-          <Route path="*" element={<Navigate replace to="not-found" />} />
-          <Route path="/" element={<Order />} />
-          <Route path="/order" element={<Navigate replace to="/" />} />
-          <Route path="/menu" element={<Menu />} />
-        </Routes>
+        {this.state.isLoading ? (
+          <Loading />
+        ) : (
+          <Routes>
+            <Route path="not-found" element={<NotFound />} />
+            <Route path="*" element={<Navigate replace to="not-found" />} />
+            <Route path="/" element={<Order />} />
+            <Route path="/order" element={<Navigate replace to="/" />} />
+            <Route path="/menu" element={<Menu />} />
+          </Routes>
+        )}
       </>
     );
   }

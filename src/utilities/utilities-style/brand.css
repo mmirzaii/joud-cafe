@@ -1,0 +1,11 @@
+.brand-container {
+  font-family: cgr;
+  color: #065349;
+}
+.brand-title {
+  margin: 0px;
+}
+.brand-text {
+  margin-right: 25%;
+  margin-top: -15%;
+}

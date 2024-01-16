@@ -1,6 +1,7 @@
 import { Component } from "react";
 import "../style/navbar.css";
 import { NavLink } from "react-router-dom";
+import Brand from "../utilities/brand";
 class Navbar extends Component {
   state = {};
   render() {
@@ -8,7 +9,7 @@ class Navbar extends Component {
       <div className="container ">
         <nav className="navbar navbar-expand-md">
           <div className="container-fluid">
-            <span className="navbar-brand brand">JOUD</span>
+            <span className="navbar-brand brand"><Brand  fontSize="6"/></span>
             <button
               className="navbar-toggler border-0  nav-icon"
               data-bs-toggle="collapse"
