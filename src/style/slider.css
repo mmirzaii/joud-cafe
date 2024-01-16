@@ -31,11 +31,11 @@
   color: #065349 !important;
   font-size: 1.5em !important;
 }
-.drinks{
+.drinks {
   width: 70%;
   overflow: hidden;
 }
-@media screen and (max-width:992px) {
+@media screen and (max-width: 992px) {
   .bean-ltr {
     width: 30vw !important;
   }

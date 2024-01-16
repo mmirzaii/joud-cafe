@@ -79,10 +79,10 @@ class Slider extends Component {
   next = () => {
     const newSlide = this.state.slide.map((s, i, a) => {
       s.active = false;
-      if(s.animate==="nextone 1s"){
-        s.animate="nexttwo 1s"
-      }else{
-        s.animate="nextone 1s"
+      if (s.animate === "nextone 1s") {
+        s.animate = "nexttwo 1s";
+      } else {
+        s.animate = "nextone 1s";
       }
       if (s.id === 1) {
         s.id = a.length + 1;
@@ -98,10 +98,10 @@ class Slider extends Component {
   previous = () => {
     const newSlide = this.state.slide.map((s, i, a) => {
       s.active = false;
-      if(s.animate==="previousone 1s"){
-        s.animate="previoustwo 1s"
-      }else{
-        s.animate="previousone 1s"
+      if (s.animate === "previousone 1s") {
+        s.animate = "previoustwo 1s";
+      } else {
+        s.animate = "previousone 1s";
       }
       if (s.id === a.length) {
         s.id = 0;

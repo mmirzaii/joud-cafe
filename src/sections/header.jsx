@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <>
         <header className="container-fluid d-flex flex-column ">
-          <Navbar/>
+          <Navbar />
           <div className="container head-container d-flex align-items-center">
             <div className="row">
               <div className="col-6 d-flex flex-column head-text">

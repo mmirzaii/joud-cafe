@@ -56,12 +56,12 @@ input::placeholder {
   width: 40vw;
   filter: drop-shadow(20px 5px 5px rgba(40, 40, 40, 0.3));
 }
-.e-alert{
-font-family: gothb;
-background-color: #ab4c48 !important;
-color: #fdfefe !important;
+.e-alert {
+  font-family: gothb;
+  background-color: #ab4c48 !important;
+  color: #fdfefe !important;
 }
-.s-alert{
+.s-alert {
   font-family: gothb;
   background-color: #065349 !important;
   color: #fdfefe !important;

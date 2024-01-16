@@ -9,13 +9,15 @@ class Navbar extends Component {
       <div className="container ">
         <nav className="navbar navbar-expand-md">
           <div className="container-fluid">
-            <span className="navbar-brand brand"><Brand  fontSize="6"/></span>
+            <span className="navbar-brand brand">
+              <Brand fontSize="6" />
+            </span>
             <button
               className="navbar-toggler border-0  nav-icon"
               data-bs-toggle="collapse"
               data-bs-target="#nav"
             >
-            <i className="fa-solid fa-mug-saucer"></i>
+              <i className="fa-solid fa-mug-saucer"></i>
             </button>
             <div className="collapse  navbar-collapse" id="nav">
               <ul className="navbar-nav ms-auto ">

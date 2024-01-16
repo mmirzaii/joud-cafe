@@ -8,13 +8,13 @@ class Advertising extends Component {
         <div className="row hh me-5 ms-5">
           <div className="col-7 d-flex flex-column justify-content-center  glass-container">
             <div className="glass">
-            <img src="img/up-right.png" className="right" alt="" />
+              <img src="img/up-right.png" className="right" alt="" />
             </div>
             <div className="glass">
-            <img src="img/normal-left.png" className="normal" alt="" />
+              <img src="img/normal-left.png" className="normal" alt="" />
             </div>
             <div className="glass">
-            <img src="img/up-right.png" className="left" alt="" />
+              <img src="img/up-right.png" className="left" alt="" />
             </div>
           </div>
           <div className="advertising-text col-5 d-flex flex-column align-items-center justify-content-center">

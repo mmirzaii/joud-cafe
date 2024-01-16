@@ -113,7 +113,7 @@ class OrderForm extends Component {
   handleSubmit = async (e) => {
     e.preventDefault();
     this.setState({ errors: [] });
-    this.setState({ sended:false });
+    this.setState({ sended: false });
     const result = await this.validate();
     if (result) {
       try {

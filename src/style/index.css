@@ -16,7 +16,7 @@
 }
 body {
   font-family: gothM !important;
-  box-sizing: border-box ;
+  box-sizing: border-box;
   cursor: default;
 }
 button:focus {

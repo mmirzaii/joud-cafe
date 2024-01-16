@@ -5,8 +5,8 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.hh{
-min-height: 100vh;
+.hh {
+  min-height: 100vh;
 }
 .advertising-title {
   font-size: 4.5vw;
@@ -34,18 +34,18 @@ min-height: 100vh;
   width: 15vw;
 }
 .right {
-    animation: suspendedone 10s infinite linear;
-    right: 40%;
-    bottom: 0px;
+  animation: suspendedone 10s infinite linear;
+  right: 40%;
+  bottom: 0px;
 }
 .normal {
-    animation: suspendedtwo 10s infinite linear;
-    animation-direction: alternate;
-    left: 10%;
+  animation: suspendedtwo 10s infinite linear;
+  animation-direction: alternate;
+  left: 10%;
 }
 .left {
-    animation: suspendedthree 10s infinite linear;
-    top: 0px;
+  animation: suspendedthree 10s infinite linear;
+  top: 0px;
   right: 30%;
 }
 @media screen and (max-width: 992px) {
